@@ -95,7 +95,11 @@ class Downloadable {
         //file 1
         EventsData.roster = getCol(array: self.files[1].data, col: 3) as! [String]
         EventsData.officialNumbers = (getCol(array: self.files[1].data, col:1) as! [String]).map{Int($0)!}
-        
+        loadSchoolName()
+        let cs = EventsData.currentSchool
+        if (cs < self.files[1].data.count) && (2 < self.files[1].data[cs].count) && (0 < self.files[1].data[cs][2].count) {
+            EventsData.div = self.files[1].data[cs][2].first!
+        }
         
         //the rest of the files
         self.prepareSOEvents()
@@ -157,10 +161,15 @@ class Downloadable {
             let (evName, date, loc) = (info[0], info[3], info[4])
             let evTime = ScheduleData.formatTime(time: info[2])
             let locCode = Int(info[5]) ?? -1
-            let divC = info[1].lowercased().contains("c") //true if c
-            let divB = info[1].lowercased().contains("b") //true if b -- can be both if "bc" or something
+            var divC = info[1].lowercased().contains("c") //true if c
+            var divB = info[1].lowercased().contains("b") //true if b -- can be both if "bc" or something
+            if !(divB || divC) {
+                //In case the thing is blank, assume it's valid for both
+                divB = true
+                divC = true
+            }
             
-            let entry = EventLabel(name: evName, loc: loc, locCode: locCode, time: evTime, date: date)
+            let entry = EventLabel(name: evName, loc: loc, locCode: locCode, time: evTime, date: date, divB: divB, divC: divC)
             tmp.append(entry)
         }
         ScheduleData.schedEvents = tmp //need to reorder later anyway

@@ -125,6 +125,7 @@ func loadSchoolName() -> Void {
                 print("Loaded team: \(EventsData.roster[schoolNumber])")
             }*/
             EventsData.currentSchool = Int(result!.number)
+
             //print("Loaded team: \(EventsData.roster[EventsData.currentSchool])")
         }
     }

@@ -20,8 +20,11 @@ class SchedViewController: UIViewController, UITableViewDataSource, UITableViewD
         var dates: [String] = []
         //get the dates involved
         for ev in ScheduleData.schedEvents {
-            if !(dates.contains(ev.date) ) {
-                dates.append(ev.date)
+            if !(dates.contains(ev.date)) {
+                if (EventsData.div == "C" && ev.divC) //also require that the event is in the appropriate category
+                    || (EventsData.div == "B" && ev.divB) {
+                    dates.append(ev.date)
+                }
             }
         }
         dates = dates.sorted()
@@ -32,13 +35,22 @@ class SchedViewController: UIViewController, UITableViewDataSource, UITableViewD
             for ev in ScheduleData.schedEvents {
                 //if the current event is on the date in question
                 if ev.date == date {
-                    relevantEvents.append(ev)
+                    if (EventsData.div == "C" && ev.divC) //also require that the event is in the appropriate category
+                        || (EventsData.div == "B" && ev.divB) {
+                        relevantEvents.append(ev)
+                    }
                 }
             }
             relevantEvents = ScheduleData.orderEvents(eventList: relevantEvents)
             tmp.append((date, relevantEvents))
         }
         self.datedSched = tmp
+        /*for dr in datedSched {
+            for d in dr.1 {
+                print(d.divB)
+            }
+         }*/
+        
     }
     
     public func numberOfSections(in tableView: UITableView) -> Int {
@@ -72,11 +84,17 @@ class SchedViewController: UIViewController, UITableViewDataSource, UITableViewD
     }
     
     override func viewDidAppear(_ animated: Bool) {
+        super.viewDidLoad()
+        self.sortByDate()
+        SchedView.reloadData()
+        
+        
         super.viewDidAppear(animated)
         self.sortByDate()
     }
     
     override func viewDidLoad() {
+        print()
         super.viewDidLoad()
         self.sortByDate()
         SchedView.reloadData()
