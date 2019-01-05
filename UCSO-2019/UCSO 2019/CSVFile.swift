@@ -25,8 +25,8 @@ func getCol(array: [[Any]], col: Int) -> [Any]? {
 
 
 class CSVFile {
-    static let baseFileFolder = "https://raw.githubusercontent.com/oortsang/ISO-State-2018/master/Updatable%20Files/"
-
+    //static let baseFileFolder = "https://raw.githubusercontent.com/oortsang/ISO-State-2018/master/Updatable%20Files/"
+    static let baseFileFolder =   "https://raw.githubusercontent.com/oortsang/UCSO-2019/master/UCSO-2019/Updatable%20Files/"
     static let soEventAddress = baseFileFolder + "SOEventSummary.csv"
     static let teamsAddress = baseFileFolder + "Teams.csv"
     static let testsAddress = baseFileFolder + "Tests.csv"
@@ -179,6 +179,7 @@ class CSVFile {
             }
             guard let httpResponse = resp as? HTTPURLResponse,
                 (200...299).contains(httpResponse.statusCode) else {
+                    print("O O F")
                 //DLM.dlFiles.downloadInProgress -= 1
                 return
             }

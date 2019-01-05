@@ -141,8 +141,8 @@
 		BA1026C31FDDFC8D00D16FBD /* UCSO 2019 */ = {
 			isa = PBXGroup;
 			children = (
-				BAC890471FFAEFC1004B05CC /* Data Handling */,
 				BA1026C41FDDFC8D00D16FBD /* AppDelegate.swift */,
+				BAC890471FFAEFC1004B05CC /* Data Handling */,
 				BAC890491FFAEFE8004B05CC /* Map View Controller */,
 				BAC890481FFAEFD2004B05CC /* Events View Controller */,
 				BA0E61AE20670029003A209D /* Schedule View Controller */,

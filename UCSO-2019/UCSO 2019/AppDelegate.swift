@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         let statusBar: UIView = UIApplication.shared.value(forKey: "statusBar") as! UIView
         if statusBar.responds(to:#selector(setter: UIView.backgroundColor)) {
-            statusBar.backgroundColor = UIColor(red: 232/256, green: 74/256, blue: 39/256, alpha: 1)
+            statusBar.backgroundColor = UIColor(red: 128/256, green: 0/256, blue: 0/256, alpha: 1)
         }
         UIApplication.shared.statusBarStyle = .lightContent
         DLM.dlFiles.manualStart()
