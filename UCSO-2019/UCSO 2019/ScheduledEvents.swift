@@ -104,7 +104,6 @@ class SchedViewController: UIViewController, UITableViewDataSource, UITableViewD
                         NSLocalizedString("Ok", comment: "Default action"),
                                   style: .default)
                 )
-                
                 self.present(alert, animated: true, completion: nil)
             }
         }

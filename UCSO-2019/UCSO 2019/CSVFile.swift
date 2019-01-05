@@ -186,7 +186,7 @@ class CSVFile {
             //DLM.dlFiles.downloadInProgress -= 1 //keep track instantly...
             
             guard let data = try? Data(contentsOf: loc!) , error == nil else {return}
-            //self.file = (String(data: data, encoding: .utf8))!
+            //self.file = (String(data: data, encoding: .utf8))!]
             
             let tmpfile = (String(data: data, encoding: .utf8))!
             if tmpfile == "" {
