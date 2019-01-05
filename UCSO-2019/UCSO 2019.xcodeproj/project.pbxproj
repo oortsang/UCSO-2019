@@ -120,9 +120,9 @@
 		BA1026B81FDDFC8D00D16FBD = {
 			isa = PBXGroup;
 			children = (
-				BA1026C31FDDFC8D00D16FBD /* ISO State 2018 */,
-				BA1026DA1FDDFC8D00D16FBD /* ISO State 2018Tests */,
-				BA1026E51FDDFC8D00D16FBD /* ISO State 2018UITests */,
+				BA1026C31FDDFC8D00D16FBD /* UCSO 2019 */,
+				BA1026DA1FDDFC8D00D16FBD /* UCSO 2019 Tests */,
+				BA1026E51FDDFC8D00D16FBD /* UCSO 2019 UITests */,
 				BA1026C21FDDFC8D00D16FBD /* Products */,
 				BA8AD9CD1FF5BA03008BA972 /* Frameworks */,
 			);
@@ -138,7 +138,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BA1026C31FDDFC8D00D16FBD /* ISO State 2018 */ = {
+		BA1026C31FDDFC8D00D16FBD /* UCSO 2019 */ = {
 			isa = PBXGroup;
 			children = (
 				BAC890471FFAEFC1004B05CC /* Data Handling */,
@@ -154,25 +154,25 @@
 				BA1567621FF5DEBE00A49D65 /* LaunchScreen.swift */,
 				BA1026D21FDDFC8D00D16FBD /* Info.plist */,
 			);
-			path = "ISO State 2018";
+			path = "UCSO 2019";
 			sourceTree = "<group>";
 		};
-		BA1026DA1FDDFC8D00D16FBD /* ISO State 2018Tests */ = {
+		BA1026DA1FDDFC8D00D16FBD /* UCSO 2019 Tests */ = {
 			isa = PBXGroup;
 			children = (
 				BA1026DB1FDDFC8D00D16FBD /* UCSO_Invitational_2018Tests.swift */,
 				BA1026DD1FDDFC8D00D16FBD /* Info.plist */,
 			);
-			path = "ISO State 2018Tests";
+			path = "UCSO 2019 Tests";
 			sourceTree = "<group>";
 		};
-		BA1026E51FDDFC8D00D16FBD /* ISO State 2018UITests */ = {
+		BA1026E51FDDFC8D00D16FBD /* UCSO 2019 UITests */ = {
 			isa = PBXGroup;
 			children = (
 				BA1026E61FDDFC8D00D16FBD /* UCSO_Invitational_2018UITests.swift */,
 				BA1026E81FDDFC8D00D16FBD /* Info.plist */,
 			);
-			path = "ISO State 2018UITests";
+			path = "UCSO 2019 UITests";
 			sourceTree = "<group>";
 		};
 		BA8AD9CD1FF5BA03008BA972 /* Frameworks */ = {
@@ -554,8 +554,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5UTCEK94U5;
-				INFOPLIST_FILE = "$(SRCROOT)/ISO State 2018/Info.plist";
+				DEVELOPMENT_TEAM = 4H3773Q57K;
+				INFOPLIST_FILE = "$(SRCROOT)/UCSO 2019/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
@@ -574,8 +574,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5UTCEK94U5;
-				INFOPLIST_FILE = "$(SRCROOT)/ISO State 2018/Info.plist";
+				DEVELOPMENT_TEAM = 4H3773Q57K;
+				INFOPLIST_FILE = "$(SRCROOT)/UCSO 2019/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;

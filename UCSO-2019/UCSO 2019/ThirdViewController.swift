@@ -25,13 +25,13 @@ class ThirdViewController: UIViewController {
     }
     
     @IBAction func ezraFunc(_ sender: Any) {
-        let url = URL(string: "http://www.illinoisolympiad.org/state.html")
+        let url = URL(string: "https://www.ezratech.us/competition/illinois-state-tournament-division-c")
         let request = URLRequest(url: url!)
         webview.load(request)
     }
     
     @IBAction func ucsoFunc(_ sender: Any) {
-        let url = URL(string: "https://app.avogadro.ws/il/uiuc-state-c")
+        let url = URL(string: "https://uchicagoscio.com/")
         let request = URLRequest(url: url!)
         webview.load(request)
     }
