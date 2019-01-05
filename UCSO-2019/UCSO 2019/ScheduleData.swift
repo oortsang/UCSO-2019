@@ -16,6 +16,9 @@ class EventLabel {
     var date = "" //optional
     var num: Int = -1 //optional but should have for SOEvents
     var locCode: Int = -1 //optional -- for linking to the map
+    var divB = ""
+    var divC = ""
+    
     func getTime() -> String! {
         return self.time
     }
