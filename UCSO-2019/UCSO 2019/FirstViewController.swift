@@ -9,9 +9,18 @@
 import UIKit
 import MapKit
 
+
 class FirstViewController: UIViewController, CLLocationManagerDelegate {
     @IBOutlet weak var map: MKMapView!
     let locationManager = CLLocationManager()
+    var oldPoints : [MKPointAnnotation] = []
+
+    func tabBar(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
+        print("Howdy!")
+        if viewController is FirstViewController {
+            print("First tab")
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,42 +51,46 @@ class FirstViewController: UIViewController, CLLocationManagerDelegate {
     }
 
     func reloadPoints() {
-        MyList.initiate()
-        if MyList.locPoints.count != 0 {
-            self.map.removeAnnotations(self.map.annotations)
-            
-            let firstPoint = MyList.locPoints.first!
-            
-            var minLat: Double = firstPoint.coordinate.latitude
-            var maxLat: Double = firstPoint.coordinate.latitude
-            var minLong: Double = firstPoint.coordinate.longitude
-            var maxLong: Double = firstPoint.coordinate.longitude
-            
-            for pt in MyList.locPoints {
-                self.map.addAnnotation(pt)
-                let lat = pt.coordinate.latitude
-                let long = pt.coordinate.longitude
-                if lat < minLat {
-                    minLat = lat
-                } else if lat > maxLat {
-                    maxLat = lat
+        if (oldPoints == []) || (MyList.locPoints != oldPoints) {
+            MyList.initiate()
+            if MyList.locPoints.count != 0 {
+                self.map.removeAnnotations(self.map.annotations)
+                
+                let firstPoint = MyList.locPoints.first!
+                
+                var minLat: Double = firstPoint.coordinate.latitude
+                var maxLat: Double = firstPoint.coordinate.latitude
+                var minLong: Double = firstPoint.coordinate.longitude
+                var maxLong: Double = firstPoint.coordinate.longitude
+                
+                for pt in MyList.locPoints {
+                    self.map.addAnnotation(pt)
+                    let lat = pt.coordinate.latitude
+                    let long = pt.coordinate.longitude
+                    if lat < minLat {
+                        minLat = lat
+                    } else if lat > maxLat {
+                        maxLat = lat
+                    }
+                    if long < minLong {
+                        minLong = long
+                    } else if long > maxLong {
+                        maxLong = long
+                    }
                 }
-                if long < minLong {
-                    minLong = long
-                } else if long > maxLong {
-                    maxLong = long
-                }
+                let midLat = (minLat + maxLat) / 2
+                let midLong = (minLong + maxLong) / 2
+                
+                let spread = 0.01 + max(maxLat-minLat, maxLong - minLong) / 2
+                
+                
+                let centerLoc = CLLocationCoordinate2DMake(midLat, midLong)
+                let mapSpan = MKCoordinateSpanMake(spread, spread)
+                let mapRegion = MKCoordinateRegion(center: centerLoc, span: mapSpan)
+                self.map.setRegion(mapRegion, animated: true)
+                
+                oldPoints = MyList.locPoints
             }
-            let midLat = (minLat + maxLat) / 2
-            let midLong = (minLong + maxLong) / 2
-            
-            let spread = 0.01 + max(maxLat-minLat, maxLong - minLong) / 2
-            
-            
-            let centerLoc = CLLocationCoordinate2DMake(midLat, midLong)
-            let mapSpan = MKCoordinateSpanMake(spread, spread)
-            let mapRegion = MKCoordinateRegion(center: centerLoc, span: mapSpan)
-            self.map.setRegion(mapRegion, animated: true)
         }
     }
     
