@@ -109,9 +109,6 @@ class tabby : UITabBarController, UITabBarControllerDelegate {
     }
     override func tabBar (_ tabBar: UITabBar, didSelect item: UITabBarItem) {
         if  (item.tag == 0 && item.tag == self.selectedIndex) {
-            print(item.tag, self.selectedIndex)
-            // reload points
-            // ???.reloadPoints()
             NotificationCenter.default.post(name: .reloadMap, object: nil)
         }
     }
