@@ -9,18 +9,10 @@
 import UIKit
 import MapKit
 
-
 class FirstViewController: UIViewController, CLLocationManagerDelegate {
     @IBOutlet weak var map: MKMapView!
     let locationManager = CLLocationManager()
     var oldPoints : [MKPointAnnotation] = []
-
-    func tabBar(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
-        print("Howdy!")
-        if viewController is FirstViewController {
-            print("First tab")
-        }
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,6 +24,7 @@ class FirstViewController: UIViewController, CLLocationManagerDelegate {
         self.reloadPoints()
         
         NotificationCenter.default.addObserver(self, selector: #selector(onDownloadFinished), name: .downloadFinished, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(reloadMapp), name: .reloadMap, object: nil)
         
         self.map.showsUserLocation = true
         
@@ -50,8 +43,14 @@ class FirstViewController: UIViewController, CLLocationManagerDelegate {
         }
     }
 
-    func reloadPoints() {
-        if (oldPoints == []) || (MyList.locPoints != oldPoints) {
+    @objc func reloadMapp() {
+        DispatchQueue.main.async {
+            self.reloadPoints(force: true)
+        }
+    }
+    
+    func reloadPoints(force: Bool = false) {
+        if (oldPoints == []) || (MyList.locPoints != oldPoints) || force {
             MyList.initiate()
             if MyList.locPoints.count != 0 {
                 self.map.removeAnnotations(self.map.annotations)
@@ -102,3 +101,18 @@ class FirstViewController: UIViewController, CLLocationManagerDelegate {
 
 }
 
+
+class tabby : UITabBarController, UITabBarControllerDelegate {
+    override func viewDidLoad ()  {
+        super.viewDidLoad()
+        self.delegate = self
+    }
+    override func tabBar (_ tabBar: UITabBar, didSelect item: UITabBarItem) {
+        if  (item.tag == 0 && item.tag == self.selectedIndex) {
+            print(item.tag, self.selectedIndex)
+            // reload points
+            // ???.reloadPoints()
+            NotificationCenter.default.post(name: .reloadMap, object: nil)
+        }
+    }
+}
