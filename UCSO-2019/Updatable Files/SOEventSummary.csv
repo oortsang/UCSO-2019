@@ -1,26 +1,57 @@
 Internal Number,Name,Division,Trial?,Time block?,Self-Scheduled?,Impounded?
 1,Anatomy & Physiology,C,,y,,
 2,Astronomy,C,,y,,
-3,Boomilever,C,,,y,
-4,Chemistry Lab,C,,y,,
-5,Circuit Lab,C,,y,,
-6,Codebusters,C,,y,,
-7,Designer Genes,C,,y,,
-8,Disease Detectives,C,,y,,
-9,Dynamic Planet,C,,y,,
-10,Experimental Design,C,,,y,
-11,Fermi Questions,C,,y,,
-12,Forensics,C,,y,,
-13,Fossils ,C,,y,,
-14,Geologic Mapping,C,,y,,
-15,Herpetology,C,,y,,
-16,Mission Possible,C,,,y,y
+3,Chemistry Lab,C,,y,,
+4,Disease Detectives,C,,y,,
+5,Dynamic Planet,C,,y,,
+6,Ecology,C,,y,,
+7,Experimental Design,C,,y,,
+8,Fermi Questions,C,,y,,
+9,Forensics,C,,y,,
+10,Game On,C,,y,,
+11,Helicopters,C,,,y,n
+12,Herpetology,C,,y,,
+13,Hovercraft,C,,y,n,y
+14,Materials Science,C,,y,,
+15,Microbe Mission,C,,y,,
+16,Mission Possible,C,,,y,
 17,Mousetrap Vehicle,C,,,y,y
-18,Protein Modeling,C,,y,,y
-19,Sounds of Music,C,,y,,
-20,Thermodynamics,C,,y,,y
-21,Water Quality,C,,y,,
-22,Wright Stuff,C,,,y,
+18,Optics,C,,y,n,n
+19,Remote Sensing,C,,y,,
+20,Rocks & Minerals,C,,y,,
+21,Thermodynamics,C,,y,,y
+22,Towers,C,,,y,n
 23,Write It Do It,C,,y,,
-24,Ornithology,C,y,,y,
-25,Competitive Events! This is placeholder data :P,B,n,n,y,n
+24,Density,C,y,y,,
+25,Detector Building,C,y,,n,y
+26,Electric Wright Stuff,C,y,,y,n
+27,Geocaching,C,y,,y,
+28,Wifi Lab,C,y,n,y,y
+29,Anatomy & Physiology,B,,y,,
+30,Battery Buggy,B,,,y,y
+31,Crime Busters,B,,y,,
+32,Disease Detectives,B,,y,,
+33,Dynamic Planet,B,,y,,
+34,Ecology,B,,y,,
+35,Experimental Design,B,,y,,
+36,Fast Facts,B,,y,,
+37,Herpetology,B,,y,,
+38,Hovercraft,B,,,y,y
+39,Meteorology,B,,y,,
+40,Microbe Mission,B,,y,,
+41,Mystery Architecture,B,,y,,
+42,Optics,B,,y,,
+43,Potions and Poisons,B,,y,,
+44,Road Scholar,B,,y,,
+45,Rocks & Minerals,B,,y,,
+46,Roller Coaster,B,,,y,y
+47,Solar System,B,,y,,y
+48,Thermodynamics,B,,y,,y
+49,Towers,B,,,y,n
+50,Wright Stuff,B,,,y,n
+51,Write It Do It,B,,y,,
+52,Density,B,y,,y,
+53,Geocaching,B,y,,y,
+54,Pentathlon,B,y,,y,
+55,Rotor Egg Drop,B,y,,y,y
+56,Shock Value,B,y,,y,

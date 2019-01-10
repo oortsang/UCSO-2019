@@ -1,45 +1,99 @@
 Internal number,Official Team Number,Division,Team Name,Homeroom name,Homeroom location code,Time block
-0,1,B,Select team,Quad,-1,1
-1,0,C,Ladue Horton Watkins High school - Team B,BSLC 218,-1,2
-2,2,C,Clayton High School - Team A,BSLC 240,-1,1
-3,3,C,Crystal Lake Central High School - Junior Varsity Team 1,Harper 104,-1,1
-4,4,C,Crystal Lake Central High School - Varsity Team,Harper 104,-1,1
-5,5,C,Evergreen Park Community High School - Varsity Team,Harper 151,-1,1
-6,6,C,Glenbrook South High School - Team A,Harper 130,-1,1
-7,7,C,Glenbrook South High School - Team B,Harper 130,-1,1
-8,8,C,Huntley High School - Junior Varsity Team 1,Stuart 101,-1,1
-9,9,C,Huntley High School - Varsity Team,Stuart 101,-1,1
-10,10,C,J Adams - Team A,Stuart 101,-1,1
-11,11,C,J Adams - Team B,Stuart 101,-1,2
-12,12,C,John Hancock College Prep HS - Varsity Team,Cobb 402,-1,2
-13,13,C,Jones College Prep - Junior Varsity Team 1,Stuart 102,-1,2
-14,14,C,Jones College Prep - Varsity Team,Stuart 102,-1,2
-15,15,C,Ladue Horton Watkins High school - Team A,Cobb 403,-1,2
-16,16,C,Libertyville HS - Junior Varsity Team 1,Hinds 101,-1,2
-17,17,C,Libertyville HS - Varsity Team,Hinds 101,-1,2
-18,18,C,Marquette University High School - Team A,Cobb 409,-1,2
-19,19,C,Lyons Township High - Junior Varsity Team 1,BSLC 324,-1,2
-20,20,C,Lyons Township High - Varsity Team,BSLC 324,-1,3
-21,21,C,Mount Vernon High School - Team A,Cobb 430 ,-1,3
-22,22,C,Naperville Central High School - Junior Varsity Team 1,PRC 201,-1,3
-23,23,C,Naperville Central High School - Varsity Team,PRC 201,-1,3
-24,24,C,New Trier - Green,KPTC 120,-1,3
-25,25,C,New Trier - Blue,KPTC 120,-1,3
-26,26,C,Niles West High School - Junior Varsity Team 1,KPTC 120,-1,3
-27,27,C,Niles West High School - Varsity Team,KPTC 120,-1,3
-28,28,C,Northside College Prep - Junior Varsity Team 1,Stuart 105,-1,3
-29,29,C,Northside College Prep - Varsity Team,Stuart 105,-1,4
-30,30,C,Ogden International - Varsity Team,Harper 102,-1,4
-31,31,C,Prairie Ridge HS - Varsity Team,BSLC 313,-1,4
-32,32,C,Sarah E. Goode STEM Academy - Varsity Team,PRC 215,-1,4
-33,33,C,Syosset High School Team A,Stuart 105,-1,4
-34,34,C,Syosset High School Team B,Stuart 105,-1,4
-35,35,C,University of Chicago Laboratory Schools - Junior Varsity Team 1,KPTC 103,-1,4
-36,36,C,University of Chicago Laboratory Schools - Varsity Team,KPTC 103,-1,4
-37,37,C,Walter Payton College Prep - Junior Varsity Team 1,KPTC 105,-1,4
-38,38,C,Walter Payton College Prep - Varsity Team,KPTC 105,-1,5
-39,39,C,Waubonsie Valley High School - Junior Varsity Team 1,BSLC 202,-1,5
-40,40,C,Waubonsie Valley High School - Varsity Team,BSLC 202,-1,5
-41,41,C,Whiting High School - Team A,BSLC 305,-1,5
-42,42,C,Whiting High School - Team B,BSLC 305,-1,5
-43,43,C,Latin School - Varsity Team,CNRC 158 (Campus North),-1,5
+0,1,B,Whitney Young,Unavailable,-1,1
+1,2,B,Lane Tech,Unavailable,-1,1
+2,3,B,Volta,Unavailable,-1,1
+3,4,B,Edison,Unavailable,-1,1
+4,5,B,Oriole Park,Unavailable,-1,1
+5,6,B,Geo Washington,Unavailable,-1,1
+6,7,B,Immaculate Conception,Unavailable,-1,1
+7,8,B,Millstadt,Unavailable,-1,1
+8,9,B,Fulton,Unavailable,-1,1
+9,10,B,Mascoutah,Unavailable,-1,1
+10,11,B,Daniel Wright,Unavailable,-1,2
+11,12,B,Grayslake,Unavailable,-1,2
+12,13,B,Latin,Unavailable,-1,2
+13,14,B,Woodland,Unavailable,-1,2
+14,15,B,Beardsley,Unavailable,-1,2
+15,16,B,South,Unavailable,-1,2
+16,17,B,Kennedy,Unavailable,-1,2
+17,18,B,Butler,Unavailable,-1,2
+18,19,B,U of C Lab School,Unavailable,-1,2
+19,20,B,Bryan,Unavailable,-1,2
+20,21,B,Science & Arts,Unavailable,-1,3
+21,22,B,Twin Groves,Unavailable,-1,3
+22,23,B,Woodlawn,Unavailable,-1,3
+23,24,B,Glencoe Central,Unavailable,-1,3
+24,25,B,Fox Valley,Unavailable,-1,3
+25,26,B,Hawthorn North,Unavailable,-1,3
+26,27,B,OLPH,Unavailable,-1,3
+27,28,B,NSCDS,Unavailable,-1,3
+28,29,B,Park View,Unavailable,-1,3
+29,30,B,Lisle JH,Unavailable,-1,3
+30,31,B,Harlem,Unavailable,-1,4
+31,32,B,Rockford Christian,Unavailable,-1,4
+32,33,B,Larsen,Unavailable,-1,4
+33,34,B,Durand,Unavailable,-1,4
+34,35,B,East View,Unavailable,-1,4
+35,36,B,Roscoe,Unavailable,-1,4
+36,37,B,Abbott,Unavailable,-1,4
+37,38,B,St. Matthew,Unavailable,-1,4
+38,39,B,Glenn Raymond,Unavailable,-1,4
+39,40,B,Western JH,Unavailable,-1,4
+40,41,B,Marie Murphy,Unavailable,-1,5
+41,42,B,Wilmette,Unavailable,-1,5
+42,43,B,Thomas,Unavailable,-1,5
+43,44,B,North Park,Unavailable,-1,5
+44,45,B,Attea,Unavailable,-1,5
+45,46,B,Macomb,Unavailable,-1,5
+46,47,B,Farmington,Unavailable,-1,5
+47,48,B,Stark,Unavailable,-1,5
+48,49,B,Our Lady of Mt Carmel,Unavailable,-1,5
+49,1,C,Jones,Unavailable,-1,1
+50,2,C,Walter Payton,Unavailable,-1,1
+51,3,C,Lane Tech,Unavailable,-1,1
+52,4,C,Whitney Young,Unavailable,-1,1
+53,5,C,Northside,Unavailable,-1,1
+54,6,C,Sacred Heart Griffin,Unavailable,-1,1
+55,7,C,Carbondale,Unavailable,-1,1
+56,8,C,Edwardsville,Unavailable,-1,1
+57,9,C,Rochester,Unavailable,-1,1
+58,10,C,Dupo,Unavailable,-1,1
+59,11,C,New Trier,Unavailable,-1,2
+60,12,C,Niles West,Unavailable,-1,2
+61,13,C,Niles North,Unavailable,-1,2
+62,14,C,Glenbrook South,Unavailable,-1,2
+63,15,C,Loyola Academy,Unavailable,-1,2
+64,16,C,Neuqua Valley,Unavailable,-1,2
+65,17,C,Waubonsie Valley,Unavailable,-1,2
+66,18,C,University of Chicago Lab,Unavailable,-1,2
+67,19,C,Metea Valley,Unavailable,-1,2
+68,20,C,Oswego East,Unavailable,-1,2
+69,21,C,Naperville North,Unavailable,-1,3
+70,22,C,Crystal Lake Central,Unavailable,-1,3
+71,23,C,Hinsdale Central,Unavailable,-1,3
+72,24,C,Naperville Central,Unavailable,-1,3
+73,25,C,York,Unavailable,-1,3
+74,26,C,IMSA,Unavailable,-1,3
+75,27,C,Lyons Township,Unavailable,-1,3
+76,28,C,Prospect,Unavailable,-1,3
+77,29,C,Conant,Unavailable,-1,3
+78,30,C,Palatine,Unavailable,-1,3
+79,31,C,Stevenson,Unavailable,-1,4
+80,32,C,Grayslake North,Unavailable,-1,4
+81,33,C,Libertyville,Unavailable,-1,4
+82,34,C,Cary Grove,Unavailable,-1,4
+83,35,C,Huntley,Unavailable,-1,4
+84,36,C,Prairie Ridge,Unavailable,-1,4
+85,37,C,Warren,Unavailable,-1,4
+86,38,C,Canton,Unavailable,-1,4
+87,39,C,Farmington,Unavailable,-1,4
+88,40,C,Valmeyer,Unavailable,-1,4
+89,41,C,Harlem,Unavailable,-1,5
+90,42,C,Belvidere North,Unavailable,-1,5
+91,43,C,Rockford Guilford,Unavailable,-1,5
+92,44,C,Rockford Christian,Unavailable,-1,5
+93,45,C,Durand,Unavailable,-1,5
+94,46,C,University Lab,Unavailable,-1,5
+95,47,C,Mahomet Seymourt,Unavailable,-1,5
+96,48,C,Centennial,Unavailable,-1,5
+97,49,C,St. Thomas More,Unavailable,-1,5
