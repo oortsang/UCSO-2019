@@ -80,7 +80,7 @@ class FirstViewController: UIViewController, CLLocationManagerDelegate {
                 let midLat = (minLat + maxLat) / 2
                 let midLong = (minLong + maxLong) / 2
                 
-                let spread = 0.01 + max(maxLat-minLat, maxLong - minLong) / 2
+                let spread = 0.001 + max(maxLat-minLat, maxLong - minLong)
                 
                 
                 let centerLoc = CLLocationCoordinate2DMake(midLat, midLong)
