@@ -1,45 +1,44 @@
 Internal number,Official Team Number,Division,Team Name,Homeroom name,Homeroom location code,Time block
-0,1,B,Coming soon,Main Quad!,-1,1
-1,1,C,Ladue Horton Watkins High school - Team B,BSLC 218,-1,2
-2,2,C,Clayton High School - Team A,BSLC 240,-1,1
-3,3,C,Crystal Lake Central High School - Junior Varsity Team 1,Harper 104,-1,1
-4,4,C,Crystal Lake Central High School - Varsity Team,Harper 104,-1,1
-5,5,C,Evergreen Park Community High School - Varsity Team,Harper 151,-1,1
-6,6,C,Glenbrook South High School - Team A,Harper 130,-1,1
-7,7,C,Glenbrook South High School - Team B,Harper 130,-1,1
-8,8,C,Huntley High School - Junior Varsity Team 1,Stuart 101,-1,1
-9,9,C,Huntley High School - Varsity Team,Stuart 101,-1,1
-10,10,C,J Adams - Team A,Stuart 101,-1,1
-11,11,C,J Adams - Team B,Stuart 101,-1,2
-12,12,C,John Hancock College Prep HS - Varsity Team,Cobb 402,-1,2
-13,13,C,Jones College Prep - Junior Varsity Team 1,Stuart 102,-1,2
-14,14,C,Jones College Prep - Varsity Team,Stuart 102,-1,2
-15,15,C,Ladue Horton Watkins High school - Team A,Cobb 403,-1,2
-16,16,C,Libertyville HS - Junior Varsity Team 1,Hinds 101,-1,2
-17,17,C,Libertyville HS - Varsity Team,Hinds 101,-1,2
-18,18,C,Marquette University High School - Team A,Cobb 409,-1,2
-19,19,C,Lyons Township High - Junior Varsity Team 1,BSLC 324,-1,2
-20,20,C,Lyons Township High - Varsity Team,BSLC 324,-1,3
-21,21,C,Mount Vernon High School - Team A,Cobb 430 ,-1,3
-22,22,C,Naperville Central High School - Junior Varsity Team 1,PRC 201,-1,3
-23,23,C,Naperville Central High School - Varsity Team,PRC 201,-1,3
-24,24,C,New Trier - Green,KPTC 120,-1,3
-25,25,C,New Trier - Blue,KPTC 120,-1,3
-26,26,C,Niles West High School - Junior Varsity Team 1,KPTC 120,-1,3
-27,27,C,Niles West High School - Varsity Team,KPTC 120,-1,3
-28,28,C,Northside College Prep - Junior Varsity Team 1,Stuart 105,-1,3
-29,29,C,Northside College Prep - Varsity Team,Stuart 105,-1,4
-30,30,C,Ogden International - Varsity Team,Harper 102,-1,4
-31,31,C,Prairie Ridge HS - Varsity Team,BSLC 313,-1,4
-32,32,C,Sarah E. Goode STEM Academy - Varsity Team,PRC 215,-1,4
-33,33,C,Syosset High School Team A,Stuart 105,-1,4
-34,34,C,Syosset High School Team B,Stuart 105,-1,4
-35,35,C,University of Chicago Laboratory Schools - Junior Varsity Team 1,KPTC 103,-1,4
-36,36,C,University of Chicago Laboratory Schools - Varsity Team,KPTC 103,-1,4
-37,37,C,Walter Payton College Prep - Junior Varsity Team 1,KPTC 105,-1,4
-38,38,C,Walter Payton College Prep - Varsity Team,KPTC 105,-1,5
-39,39,C,Waubonsie Valley High School - Junior Varsity Team 1,BSLC 202,-1,5
-40,40,C,Waubonsie Valley High School - Varsity Team,BSLC 202,-1,5
-41,41,C,Whiting High School - Team A,BSLC 305,-1,5
-42,42,C,Whiting High School - Team B,BSLC 305,-1,5
-43,43,C,Latin School - Varsity Team,CNRC 158 (Campus North),-1,5
+0,1,C,Ladue Horton Watkins High school - Team B,BSLC 218,-1,2
+1,2,C,Clayton High School - Team A,BSLC 240,-1,1
+2,3,C,Crystal Lake Central High School - Junior Varsity Team 1,Harper 104,-1,1
+3,4,C,Crystal Lake Central High School - Varsity Team,Harper 104,-1,1
+4,5,C,Evergreen Park Community High School - Varsity Team,Harper 151,-1,1
+5,6,C,Glenbrook South High School - Team A,Harper 130,-1,1
+6,7,C,Glenbrook South High School - Team B,Harper 130,-1,1
+7,8,C,Huntley High School - Junior Varsity Team 1,Stuart 101,-1,1
+8,9,C,Huntley High School - Varsity Team,Stuart 101,-1,1
+9,10,C,J Adams - Team A,Stuart 101,-1,1
+10,11,C,J Adams - Team B,Stuart 101,-1,2
+11,12,C,John Hancock College Prep HS - Varsity Team,Cobb 402,-1,2
+12,13,C,Jones College Prep - Junior Varsity Team 1,Stuart 102,-1,2
+13,14,C,Jones College Prep - Varsity Team,Stuart 102,-1,2
+14,15,C,Ladue Horton Watkins High school - Team A,Cobb 403,-1,2
+15,16,C,Libertyville HS - Junior Varsity Team 1,Hinds 101,-1,2
+16,17,C,Libertyville HS - Varsity Team,Hinds 101,-1,2
+17,18,C,Marquette University High School - Team A,Cobb 409,-1,2
+18,19,C,Lyons Township High - Junior Varsity Team 1,BSLC 324,-1,2
+19,20,C,Lyons Township High - Varsity Team,BSLC 324,-1,3
+20,21,C,Mount Vernon High School - Team A,Cobb 430 ,-1,3
+21,22,C,Naperville Central High School - Junior Varsity Team 1,PRC 201,-1,3
+22,23,C,Naperville Central High School - Varsity Team,PRC 201,-1,3
+23,24,C,New Trier - Green,KPTC 120,-1,3
+24,25,C,New Trier - Blue,KPTC 120,-1,3
+25,26,C,Niles West High School - Junior Varsity Team 1,KPTC 120,-1,3
+26,27,C,Niles West High School - Varsity Team,KPTC 120,-1,3
+27,28,C,Northside College Prep - Junior Varsity Team 1,Stuart 105,-1,3
+28,29,C,Northside College Prep - Varsity Team,Stuart 105,-1,4
+29,30,C,Ogden International - Varsity Team,Harper 102,-1,4
+30,31,C,Prairie Ridge HS - Varsity Team,BSLC 313,-1,4
+31,32,C,Sarah E. Goode STEM Academy - Varsity Team,PRC 215,-1,4
+32,33,C,Syosset High School Team A,Stuart 105,-1,4
+33,34,C,Syosset High School Team B,Stuart 105,-1,4
+34,35,C,University of Chicago Laboratory Schools - Junior Varsity Team 1,KPTC 103,-1,4
+35,36,C,University of Chicago Laboratory Schools - Varsity Team,KPTC 103,-1,4
+36,37,C,Walter Payton College Prep - Junior Varsity Team 1,KPTC 105,-1,4
+37,38,C,Walter Payton College Prep - Varsity Team,KPTC 105,-1,5
+38,39,C,Waubonsie Valley High School - Junior Varsity Team 1,BSLC 202,-1,5
+39,40,C,Waubonsie Valley High School - Varsity Team,BSLC 202,-1,5
+40,41,C,Whiting High School - Team A,BSLC 305,-1,5
+41,42,C,Whiting High School - Team B,BSLC 305,-1,5
+42,43,C,Latin School - Varsity Team,CNRC 158 (Campus North),-1,5
