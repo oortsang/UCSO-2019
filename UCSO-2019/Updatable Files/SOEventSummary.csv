@@ -1,25 +1,26 @@
 Internal Number,Name,Division,Trial?,Time block?,Self-Scheduled?,Impounded?
-1,Anatomy & Physiology,BSLC 206,,y,,
-2,Astronomy,Harper 140,,y,,
-3,Boomilever,TBD,,,y,
-4,Chemistry Lab,BSLC 354,,y,,
-5,Circuit Lab,KPTC 101,,y,,
-6,Codebusters,Harper 141,,y,,
-7,Designer Genes,KPTC 309,,y,,
-8,Disease Detectives,Harper 140,,y,,
-9,Dynamic Planet,Harper 150,,y,,
-10,Experimental Design,GCIS W301/303,,n,y,
-11,Fermi Questions,Harper 145,,y,,
-12,Forensics,BSLC 236,,y,,
-13,Fossils ,Hinds 176,,y,,
-14,Geologic Mapping,Harper 135,,y,,
-15,Herpetology,BSLC 350,,y,,
-16,Mission Possible,TBD,,,y,y
-17,Mousetrap Vehicle,TBD,,,y,y
-18,Protein Modeling,CSIL (Room 2),,y,,y
-19,Sounds of Music,Hinds 180/184,,y,,
-20,Thermodynamics,BSLC 442,,y,,y
-21,Water Quality,BSLC 228,,y,,
-22,Wright Stuff,TBD,,,y,
-23,Write It Do It,ERC 201B/247,,y,,
-24,Ornithology,ERC 301B,y,,y,
+1,Anatomy & Physiology,C,,y,,
+2,Astronomy,C,,y,,
+3,Boomilever,C,,,y,
+4,Chemistry Lab,C,,y,,
+5,Circuit Lab,C,,y,,
+6,Codebusters,C,,y,,
+7,Designer Genes,C,,y,,
+8,Disease Detectives,C,,y,,
+9,Dynamic Planet,C,,y,,
+10,Experimental Design,C,,n,y,
+11,Fermi Questions,C,,y,,
+12,Forensics,C,,y,,
+13,Fossils ,C,,y,,
+14,Geologic Mapping,C,,y,,
+15,Herpetology,C,,y,,
+16,Mission Possible,C,,,y,y
+17,Mousetrap Vehicle,C,,,y,y
+18,Protein Modeling,C,,y,,y
+19,Sounds of Music,C,,y,,
+20,Thermodynamics,C,,y,,y
+21,Water Quality,C,,y,,
+22,Wright Stuff,C,,,y,
+23,Write It Do It,C,,y,,
+24,Ornithology,C,y,,y,
+25,Competitive Events! This is placeholder data :P,B,n,n,n,n
