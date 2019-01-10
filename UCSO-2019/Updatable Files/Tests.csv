@@ -1,20 +1,37 @@
 Internal number,Event Name,Duration,Location Name,Building Code #,Time block 1,Time block 2,Time block 3,Time block 4,Time block 5
-1,Anatomy & Physiology,50,BSLC 206,-1,9,10,11,12,1
-2,Astronomy,50,Harper 140,-1,1,9,10,11,12
-4,Chemistry Lab,50,BSLC 354,-1,12,1,9,10,11
-5,Circuit Lab,50,KPTC 101,-1,12,1,9,10,11
-6,Codebusters,50,Harper 141,-1,12,1,9,10,11
-7,Designer Genes,50,KPTC 309,-1,10,11,12,1,9
-8,Disease Detectives,50,Harper 140,-1,8,8,8,8,8
-9,Dynamic Planet,50,Harper 150,-1,10,11,12,1,9
-11,Fermi Questions,50,Harper 145,-1,9,10,11,12,1
-12,Forensics,50,BSLC 236,-1,1,9,10,11,12
-13,Fossils ,50,Hinds 176,-1,11,12,1,9,10
-14,Geologic Mapping,50,Harper 135,-1,9,10,11,12,1
-15,Herpetology,50,BSLC 350,-1,12,1,9,10,11
-18,Protein Modeling,50,CSIL (Room 2),-1,11,12,1,9,10
-19,Sounds of Music,50,Hinds 180/184,-1,10,11,12,1,9
-20,Thermodynamics,50,BSLC 442,-1,10,11,12,1,9
-21,Water Quality,50,BSLC 228,-1,11,12,1,9,10
-23,Write It Do It,50,ERC 201B/247,-1,1,9,10,11,12
-25,Competitive Events! This is placeholder data :P,50,Quad,-1,9,9,9,9,9
+1,Anatomy & Physiology,60,246 Burril,-1,9:30,10:45,12,1:15,2:30
+2,Astronomy,60,4002 Natural History,-1,12,1:15,8:15,9:30,10:45
+3,Chemistry Lab,60,007 Chem Annex,-1,10:45,12,1:15,8:15,9:30
+4,Disease Detectives,60,100 Noyes,-1,7,7,7,7,7
+5,Dynamic Planet,60,3001 BIF,-1,9:30,10:45,12,1:15,2:30
+6,Ecology,60,3004 Natural History,-1,10:45,12,1:15,8:15,9:30
+7,Experimental Design,60,3011 Natural History,-1,8:15,9:30,10:45,12,1:15
+8,Fermi Questions,60,314 Altgeld,-1,7,7,7,7,7
+9,Forensics,60,2006 Chem Annex,-1,8:15,9:30,10:45,12,1:15
+10,Game On,60,1009 Mech Eng,-1,12,1:15,8:15,9:30,10:45
+12,Herpetology,60,2063 BIF,-1,8:15,9:30,10:45,12,1:15
+14,Materials Science,60,1007 Chem Annex,-1,1:15,8:15,9:30,10:45,12
+15,Microbe Mission,60,3100 Natural History,-1,12,1:15,8:15,9:30,10:45
+18,Optics,60,1002 Khan,-1,8:15,9:30,10:45,12,1:15
+19,Remote Sensing,60,3003 BIF,-1,10:45,12,1:15,8:15,9:30
+20,Rocks & Minerals,60,2083 Natural History,-1,9:30,10:45,12,1:15,2:30
+21,Thermodynamics,60,3026 Chem Annex,-1,1:15,8:15,9:30,10:45,12
+23,Write It Do It,60,241 Wohlers,-1,1:15,8:15,9:30,10:45,12
+29,Anatomy & Physiology,60,242 Burrill,-1,8:15,9:30,10:45,12,1:15
+31,Crime Busters,60,2007 Chem Annex,-1,12,1:15,8:15,9:30,10:45
+32,Disease Detectives,60,213 Greg,-1,7,7,7,7,7
+33,Dynamic Planet,60,2011 BIF,-1,8:15,9:30,10:45,12,1:15
+34,Ecology,60,3002 Natural History,-1,9:30,10:45,12,1:15,2:30
+35,Experimental Design,60,1006 Chem Annex,-1,12,1:15,8:15,9:30,10:45
+36,Fast Facts,60,2079 Natural History,-1,7,7,7,7,7
+37,Herpetology,60,2057 BIF,-1,12,1:15,8:15,9:30,10:45
+39,Meteorology,60,311 Greg,-1,10:45,12,1:15,8:15,9:30
+40,Microbe Mission,60,3098 Natural History,-1,1:15,8:15,9:30,10:45,12
+41,Mystery Architecture,60,4072 Natural History,-1,1:15,8:15,9:30,10:45,12
+42,Optics,60,1001 Khan,-1,12,1:15,8:15,9:30,10:45
+43,Potions and Poisons,60,2007 Chem Annex,-1,9:30,10:45,12,1:15,8:15
+44,Road Scholar,60,152 Wohlers,-1,9:30,10:45,12,1:15,2:30
+45,Rocks & Minerals,60,2020 Natural History,-1,8:15,9:30,10:45,12,2:30
+47,Solar System,60,3005 Khan,-1,1:15,8:15,9:30,10:45,12
+48,Thermodynamics,60,006 Chem Annex,-1,10:45,12,1:15,8:15,9:30
+51,Write It Do It,60,2005 BIF,-1,10:45,12,1:15,8:15,9:30
