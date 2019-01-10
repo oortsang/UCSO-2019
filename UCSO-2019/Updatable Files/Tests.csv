@@ -1,52 +1,19 @@
-Internal number,Event Name,Duration,Location Name,Building Code #,Time block 1,Time block 2,Time block 3,Time block 4,Time block 5,,,
-1,Anatomy & Physiology,50,BSLC 206,-1,9,10,11,12,1,,,
-2,Astronomy,50,Harper 140,-1,1,9,10,11,12,,,
-4,Chemistry Lab,50,BSLC 354,-1,12,1,9,10,11,,,
-5,Circuit Lab,50,KPTC 101,-1,12,1,9,10,11,,,
-6,Codebusters,50,Harper 141,-1,12,1,9,10,11,,,
-7,Designer Genes,50,KPTC 309,-1,10,11,12,1,9,,,
-8,Disease Detectives,50,Harper 140,-1,8,8,8,8,8,,,
-9,Dynamic Planet,50,Harper 150,-1,10,11,12,1,9,,,
-11,Fermi Questions,50,Harper 145,-1,9,10,11,12,1,,,
-12,Forensics,50,BSLC 236,-1,1,9,10,11,12,,,
-13,Fossils ,50,Hinds 176,-1,11,12,1,9,10,,,
-14,Geologic Mapping,50,Harper 135,-1,9,10,11,12,1,,,
-15,Herpetology,50,BSLC 350,-1,12,1,9,10,11,,,
-18,Protein Modeling,50,CSIL (Room 2),-1,11,12,1,9,10,,,
-19,Sounds of Music,50,Hinds 180/184,-1,10,11,12,1,9,,,
-20,Thermodynamics,50,BSLC 442,-1,10,11,12,1,9,,,
-21,Water Quality,50,BSLC 228,-1,11,12,1,9,10,,,
-23,Write It Do It,50,ERC 201B/247,-1,1,9,10,11,12,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
+Internal number,Event Name,Duration,Location Name,Building Code #,Time block 1,Time block 2,Time block 3,Time block 4,Time block 5
+1,Anatomy & Physiology,50,BSLC 206,-1,9,10,11,12,1
+2,Astronomy,50,Harper 140,-1,1,9,10,11,12
+4,Chemistry Lab,50,BSLC 354,-1,12,1,9,10,11
+5,Circuit Lab,50,KPTC 101,-1,12,1,9,10,11
+6,Codebusters,50,Harper 141,-1,12,1,9,10,11
+7,Designer Genes,50,KPTC 309,-1,10,11,12,1,9
+8,Disease Detectives,50,Harper 140,-1,8,8,8,8,8
+9,Dynamic Planet,50,Harper 150,-1,10,11,12,1,9
+11,Fermi Questions,50,Harper 145,-1,9,10,11,12,1
+12,Forensics,50,BSLC 236,-1,1,9,10,11,12
+13,Fossils ,50,Hinds 176,-1,11,12,1,9,10
+14,Geologic Mapping,50,Harper 135,-1,9,10,11,12,1
+15,Herpetology,50,BSLC 350,-1,12,1,9,10,11
+18,Protein Modeling,50,CSIL (Room 2),-1,11,12,1,9,10
+19,Sounds of Music,50,Hinds 180/184,-1,10,11,12,1,9
+20,Thermodynamics,50,BSLC 442,-1,10,11,12,1,9
+21,Water Quality,50,BSLC 228,-1,11,12,1,9,10
+23,Write It Do It,50,ERC 201B/247,-1,1,9,10,11,12
