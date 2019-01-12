@@ -1,6 +1,6 @@
 Internal number,Official Team Number,Division,Team Name,Homeroom name,Homeroom location code,Time block
-0,1,C,Ladue Horton Watkins High school - Team B,BSLC 218,-1,2
-1,2,C,Clayton High School - Team A,BSLC 240,-1,1
+0,1,C,Ladue Horton Watkins High school - Team B,Stuart 105,-1,2
+1,2,C,Clayton High School - Team A,N/A,-1,1
 2,3,C,Crystal Lake Central High School - Junior Varsity Team 1,Harper 104,-1,1
 3,4,C,Crystal Lake Central High School - Varsity Team,Harper 104,-1,1
 4,5,C,Evergreen Park Community High School - Varsity Team,Harper 151,-1,1
@@ -13,7 +13,7 @@ Internal number,Official Team Number,Division,Team Name,Homeroom name,Homeroom l
 11,12,C,John Hancock College Prep HS - Varsity Team,Cobb 402,-1,2
 12,13,C,Jones College Prep - Junior Varsity Team 1,Stuart 102,-1,2
 13,14,C,Jones College Prep - Varsity Team,Stuart 102,-1,2
-14,15,C,Ladue Horton Watkins High school - Team A,Cobb 403,-1,2
+14,15,C,Ladue Horton Watkins High school - Team A,Stuart 105,-1,2
 15,16,C,Libertyville HS - Junior Varsity Team 1,Hinds 101,-1,2
 16,17,C,Libertyville HS - Varsity Team,Hinds 101,-1,2
 17,18,C,Marquette University High School - Team A,Cobb 409,-1,2
@@ -31,8 +31,8 @@ Internal number,Official Team Number,Division,Team Name,Homeroom name,Homeroom l
 29,30,C,Ogden International - Varsity Team,Harper 102,-1,4
 30,31,C,Prairie Ridge HS - Varsity Team,BSLC 313,-1,4
 31,32,C,Sarah E. Goode STEM Academy - Varsity Team,PRC 215,-1,4
-32,33,C,Syosset High School Team A,Stuart 105,-1,4
-33,34,C,Syosset High School Team B,Stuart 105,-1,4
+32,33,C,Syosset High School Team A,Cobb 403,-1,4
+33,34,C,Syosset High School Team B,BSLC 218,-1,4
 34,35,C,University of Chicago Laboratory Schools - Junior Varsity Team 1,KPTC 103,-1,4
 35,36,C,University of Chicago Laboratory Schools - Varsity Team,KPTC 103,-1,4
 36,37,C,Walter Payton College Prep - Junior Varsity Team 1,KPTC 105,-1,4
@@ -41,4 +41,4 @@ Internal number,Official Team Number,Division,Team Name,Homeroom name,Homeroom l
 39,40,C,Waubonsie Valley High School - Varsity Team,BSLC 202,-1,5
 40,41,C,Whiting High School - Team A,BSLC 305,-1,5
 41,42,C,Whiting High School - Team B,BSLC 305,-1,5
-42,43,C,Latin School - Varsity Team,CNRC 158 (Campus North),-1,5
+42,43,C,Latin School - Varsity Team,BSLC 240,-1,5
