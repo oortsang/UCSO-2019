@@ -8,7 +8,7 @@ Internal number,Official Team Number,Division,Team Name,Homeroom name,Homeroom l
 6,7,C,Glenbrook South High School - Team B,Harper 130,-1,1
 7,8,C,Huntley High School - Junior Varsity Team 1,Stuart 101,-1,1
 8,9,C,Huntley High School - Varsity Team,Stuart 101,-1,1
-9,10,C,J Adams - Team A,Stuart 101,-1,1
+9,10,C,J Adams - Team A,Stuart 101,-1,2
 10,11,C,J Adams - Team B,Stuart 101,-1,2
 11,12,C,John Hancock College Prep HS - Varsity Team,Cobb 402,-1,2
 12,13,C,Jones College Prep - Junior Varsity Team 1,Stuart 102,-1,2
@@ -16,8 +16,8 @@ Internal number,Official Team Number,Division,Team Name,Homeroom name,Homeroom l
 14,15,C,Ladue Horton Watkins High school - Team A,Stuart 105,-1,2
 15,16,C,Libertyville HS - Junior Varsity Team 1,Hinds 101,-1,2
 16,17,C,Libertyville HS - Varsity Team,Hinds 101,-1,2
-17,18,C,Marquette University High School - Team A,Cobb 409,-1,2
-18,19,C,Lyons Township High - Junior Varsity Team 1,BSLC 324,-1,2
+17,18,C,Marquette University High School - Team A,Cobb 409,-1,3
+18,19,C,Lyons Township High - Junior Varsity Team 1,BSLC 324,-1,3
 19,20,C,Lyons Township High - Varsity Team,BSLC 324,-1,3
 20,21,C,Mount Vernon High School - Team A,Cobb 430 ,-1,3
 21,22,C,Naperville Central High School - Junior Varsity Team 1,PRC 201,-1,3
@@ -26,7 +26,7 @@ Internal number,Official Team Number,Division,Team Name,Homeroom name,Homeroom l
 24,25,C,New Trier - Blue,KPTC 120,-1,3
 25,26,C,Niles West High School - Junior Varsity Team 1,KPTC 120,-1,3
 26,27,C,Niles West High School - Varsity Team,KPTC 120,-1,3
-27,28,C,Northside College Prep - Junior Varsity Team 1,Stuart 105,-1,3
+27,28,C,Northside College Prep - Junior Varsity Team 1,Stuart 105,-1,4
 28,29,C,Northside College Prep - Varsity Team,Stuart 105,-1,4
 29,30,C,Ogden International - Varsity Team,Harper 102,-1,4
 30,31,C,Prairie Ridge HS - Varsity Team,BSLC 313,-1,4
@@ -35,7 +35,7 @@ Internal number,Official Team Number,Division,Team Name,Homeroom name,Homeroom l
 33,34,C,Syosset High School Team B,BSLC 218,-1,4
 34,35,C,University of Chicago Laboratory Schools - Junior Varsity Team 1,KPTC 103,-1,4
 35,36,C,University of Chicago Laboratory Schools - Varsity Team,KPTC 103,-1,4
-36,37,C,Walter Payton College Prep - Junior Varsity Team 1,KPTC 105,-1,4
+36,37,C,Walter Payton College Prep - Junior Varsity Team 1,KPTC 105,-1,5
 37,38,C,Walter Payton College Prep - Varsity Team,KPTC 105,-1,5
 38,39,C,Waubonsie Valley High School - Junior Varsity Team 1,BSLC 202,-1,5
 39,40,C,Waubonsie Valley High School - Varsity Team,BSLC 202,-1,5
